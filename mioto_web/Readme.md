@@ -1,3 +1,15 @@
+# Git clone
+Existing Git repository
+
+```
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin http://www.miototech.com:8082/front/mioto_web1.0.git
+git push -u origin --all
+git push -u origin --tags
+```
+
+# Start App
 Step 1: Install frontend dependencies
 In the directory where the package.json file is located
 
