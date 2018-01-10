@@ -33,4 +33,6 @@ In the directory where manage.py is located
 ```
 pip install -r requirements.txt
 python manage runserver
+#in server 
+#python3.6 manage runserver
 ```
